@@ -33,7 +33,7 @@ GEM
     arel (3.0.2)
     builder (3.0.4)
     chronic (0.8.0)
-    clipster (0.5.1)
+    clipster (0.5.2)
       coderay
       dynamic_form
       jquery-rails
@@ -126,7 +126,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-postgresql-adapter
-  clipster (= 0.5.1)
+  clipster (= 0.5.2)
   coffee-rails (~> 3.2.1)
   execjs
   jquery-rails

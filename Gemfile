@@ -14,7 +14,7 @@ group :production do
   gem 'activerecord-postgresql-adapter'
 end
 
-gem 'clipster', '= 0.5.1'
+gem 'clipster', '= 0.5.2'
 gem 'execjs'
 
 # Gems used only for assets and not required
