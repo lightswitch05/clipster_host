@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '~> 3.2.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -14,9 +14,9 @@ group :production do
   gem 'activerecord-postgresql-adapter'
 end
 
-gem 'clipster', '= 0.4.1'
+gem 'clipster', '= 0.5.0'
 gem 'execjs'
-gem 'therubyracer'
+gem 'therubyracer', :platforms => :ruby
 
 # Gems used only for assets and not required
 # in production environments by default.
