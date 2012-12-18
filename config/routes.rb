@@ -1,4 +1,4 @@
 ClipsterHost::Application.routes.draw do
   mount Clipster::Engine, :at => '/clipster'
-  match "/" => redirect("/clipster")
+  root :to => 'high_voltage/pages#show', :id => 'index'
 end

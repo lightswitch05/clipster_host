@@ -1,14 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>ClipsterHost</title>
+  <title>Clipster</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "clipster/application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "clipster/application" %>
   <%= csrf_meta_tags %>
+  <%=h yield(:head) %>
+  <%= render "clipster/common/includes" %>
 </head>
-<body>
+<body class="grayout">
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+              <div class="nav-collapse collapse">
+                  <%= link_to "Dev Dan", root_path, :class=>"brand"%>
+                  <ul class="nav">
+                      <li><%= link_to "Clipster", clipster_path %></li>
+                      <li><%= link_to "Gauss Crack", "https://github.com/lightswitch05/gaussCrack" %></li>
+                      <li><%= link_to "GitHub", "https://github.com/lightswitch05" %></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<%= yield %>
-
+    <div class="container">
+      <div class="span12">
+          <%= yield %>
+      </div>
+    </div>
 </body>
 </html>

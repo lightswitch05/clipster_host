@@ -16,6 +16,7 @@ end
 
 gem 'clipster', '= 0.5.2'
 gem 'execjs'
+gem 'high_voltage'
 
 # Gems used only for assets and not required
 # in production environments by default.
