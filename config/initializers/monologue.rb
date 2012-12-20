@@ -1,0 +1,11 @@
+Monologue.sidebar = ["latest_posts"]
+Monologue.show_rss_icon = true
+Monologue.google_plus_account_url = "https://plus.google.com/102883011593153978770/posts"
+Monologue.github_username = "lightswitch05"
+Monologue.google_analytics_id = "UA-29517676-2"
+Monologue.site_name = "Developer Dan"
+Monologue.site_url = "http://www.developerdan.com"
+Monologue.site_subtitle = "Yo ho ho and a bottle of rum"
+Monologue.facebook_like_locale = "en_US"
+Monologue.twitter_locale = "en"
+Monologue.posts_per_page = 5
