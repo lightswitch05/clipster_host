@@ -70,12 +70,28 @@
     color: black;
 }
 
-.grayout .tag a {
+.grayout .tag a{
     color: black;
 }
 
-.navbar ul{
+.grayout .navbar ul {
     list-style: none;
+}
+
+.grayout .content article footer .social-tagline {
+    color: black;
+}
+
+.grayout h1 a, .grayout h1 a:visited {
+    color: white;
+}
+
+.grayout .tags {
+    margin: 15px;
+}
+
+.grayout .well .button {
+    margin-bottom: 0px;
 }
 
 /*.navbar li{
