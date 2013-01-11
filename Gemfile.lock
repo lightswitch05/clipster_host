@@ -34,7 +34,7 @@ GEM
     bcrypt-ruby (3.0.1-x86-mingw32)
     builder (3.0.4)
     chronic (0.9.0)
-    clipster (0.5.2)
+    clipster (0.5.3)
       coderay
       dynamic_form
       jquery-rails
@@ -127,7 +127,7 @@ GEM
     uglifier (1.3.0)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
-    whenever (0.8.1)
+    whenever (0.8.2)
       activesupport (>= 2.3.4)
       chronic (>= 0.6.3)
 
@@ -136,7 +136,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-postgresql-adapter
-  clipster (= 0.5.2)
+  clipster (= 0.5.3)
   coffee-rails (~> 3.2.1)
   execjs
   high_voltage

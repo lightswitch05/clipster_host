@@ -14,7 +14,7 @@ group :production do
   gem 'activerecord-postgresql-adapter'
 end
 
-gem 'clipster', '= 0.5.2'
+gem 'clipster', '= 0.5.3'
 gem 'execjs'
 gem 'high_voltage'
 gem 'monologue'
