@@ -12,6 +12,7 @@ end
 group :production do
   gem 'pg'
   gem 'activerecord-postgresql-adapter'
+  gem 'newrelic_rpm'
 end
 
 gem 'clipster', '= 0.5.3'
