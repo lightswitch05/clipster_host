@@ -41,7 +41,7 @@ GEM
       kaminari
       rails (~> 3.2.8)
       whenever
-    coderay (1.0.8)
+    coderay (1.0.9)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -77,7 +77,7 @@ GEM
       tinymce-rails (<= 3.5.6)
       truncate_html
     multi_json (1.6.1)
-    newrelic_rpm (3.5.6.55)
+    newrelic_rpm (3.5.7.59)
     pg (0.14.1-x86-mingw32)
     polyglot (0.3.3)
     rack (1.4.5)
@@ -105,7 +105,7 @@ GEM
     rake (10.0.3)
     rdoc (3.12.1)
       json (~> 1.4)
-    sass (3.2.5)
+    sass (3.2.6)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
