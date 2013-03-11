@@ -32,11 +32,21 @@
       See the <%=link_to "algorithm", "https://github.com/lightswitch05/gaussCrack"%>, or
       <%=link_to "download", "https://github.com/lightswitch05/gaussCrack/downloads"%> and test
       your system now.</p>
+    <h4>Table To JSON</h4>
+      <p><%=link_to "Table To JSON", "https://github.com/lightswitch05/table-to-json"%> is a jQuery plugin that converts
+      an HTML Table into a javascript object. Obviously the need for such a plugin is not very common, but I needed it so here it is.
+      For those who are curious, I needed this when working with a dynamic table whose values where updated using
+      <%=link_to "X-editable", "http://vitalets.github.com/x-editable/"%>. X-editable uses links for editing values instead of
+      input tags. I used Table To JSON to gather the new user input for submission. For a feature list and demo please checkout
+      my <%=link_to "GitHub", "https://github.com/lightswitch05/table-to-json"%>.</p>
   </div>
 
   <div class="well span7">
     <legend>Open Source Contributions</legend>
     <ul>
+      <li><%=link_to "time-lord", "https://github.com/krainboltgreene/time-lord"%></li>
+        <ul><li>Added a new test to expose a difference between expected and actual output - 
+          <%=link_to "pull #6", "https://github.com/krainboltgreene/time-lord/pull/6"%></li></ul></li>
       <li><%=link_to "Database Cleaner", "https://github.com/bmabey/database_cleaner"%></li>
         <ul><li>Found and fixed a long-standing bug when cleaning SQLite databases - 
           <%=link_to "pull #163", "https://github.com/bmabey/database_cleaner/pull/163"%></li></ul></li>
@@ -73,7 +83,8 @@
     <legend>Tools</legend>
     <ul>
       <li><%=link_to "Rails", "http://rubyonrails.org/"%></li>
-      <li><%=link_to "JUnit", "http://www.junit.org/"%></li>
+      <li><%=link_to "JUnit", "http://www.junit.org/"%> &
+          <%=link_to "QUnit", "http://qunitjs.com/"%></li>
       <li><%=link_to "Qt", "http://qt-project.org/"%></li>
       <li><%=link_to "Eclipse", "http://www.eclipse.org/"%></li>
       <li><%=link_to "GDB", "https://www.gnu.org/software/gdb/"%></li>
