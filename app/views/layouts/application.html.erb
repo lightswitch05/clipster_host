@@ -18,11 +18,17 @@
               <div class="nav-collapse collapse">
                   <%= link_to "Daniel White", "/", :class=>"brand"%>
                   <ul class="nav">
-                      <li><%= link_to "Blog", monologue_path %>
-                      <li><%= link_to "About Me", page_path("about") %>
+                      <li><%= link_to "Blog", monologue_path %></li>
+                      <li><%= link_to "About Me", page_path("about") %></li>
+                      <li><%= link_to "Projects", "http://lightswitch05.github.io/" %></li>
                       <li><%= link_to "Clipster", clipster_path %></li>
-                      <li><%= link_to "Gauss Crack", "https://github.com/lightswitch05/gaussCrack" %></li>
                       <li><%= link_to "GitHub", "https://github.com/lightswitch05" %></li>
+                      <li style="margin-top:10px;margin-left:10px;">
+                        <iframe style="border: 0; margin: 0; padding: 0;"
+                          src="https://www.gittip.com/lightswitch05/widget.html"
+                          width="48pt" height="22pt">
+                        </iframe>
+                      </li>
                   </ul>
               </div>
           </div>
